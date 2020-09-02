@@ -1,0 +1,17 @@
+{
+    "name": "Fall Guys Perfect Match Tool",
+    "short_name": "Fall Guys Perfect Match",
+    "icons": [
+        {
+            "src": "assets/images/surf@2x.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+        "theme_color": "#5adee0",
+        "background_color": "000000",
+        "start_url": "/",
+        "display": "standalone"
+        }
+    ]
+}

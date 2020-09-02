@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fall Guys: Perfect Match Grid</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <h1>Perfect Match</h1>
+
+                <button onclick="reset()" class="btn btn-warning btn-block">Reset</button>
+
+            </div>
+
+        </div>
+
+        <div class="row" id="grid-buttons">
+
+            <div class="col-2" id="box-1" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-2" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-3" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-4" onclick="writeFruit(this.id)"></div>
+
+            <div class="col-2" id="box-5" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-6" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-7" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-8" onclick="writeFruit(this.id)"></div>
+
+            <div class="col-2" id="box-9" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-10" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-11" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-12" onclick="writeFruit(this.id)"></div>
+
+            <div class="col-2" id="box-13" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-14" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-15" onclick="writeFruit(this.id)"></div>
+            <div class="col-2" id="box-16" onclick="writeFruit(this.id)"></div>
+
+        </div>
+
+        <div class="row" id="fruit-buttons">
+         
+
+                <div class="col-4" id="apple" onclick="selectFruit(this.id)">
+                    <img class="fruit-image" src="./images/apple.png">
+                </div>
+
+                <div class="col-4" id="banana" onclick="selectFruit(this.id)">
+                    <img class="fruit-image" src="./images/banana.png">
+                </div>
+
+                <div class="col-4" id="cherry" onclick="selectFruit(this.id)">
+                    <img class="fruit-image" src="./images/cherry.png">
+                </div>
+
+                <div class="col-4" id="grape" onclick="selectFruit(this.id)">
+                    <img class="fruit-image" src="./images/grape.png">
+                </div>
+
+                <div class="col-4" id="orange" onclick="selectFruit(this.id)">
+                    <img class="fruit-image" src="./images/orange.png">
+                </div>
+
+                <div class="col-4" id="watermelon" onclick="selectFruit(this.id)">
+                    <img class="fruit-image" src="./images/watermelon.png">
+                </div>
+            
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-4 tip">1. Round 1 has 2 fruits.</div>
+            <div class="col-4 tip">2. Round 2 has 4 fruits.</div>
+            <div class="col-4 tip">3. Round 3 has 6 fruits.</div>
+
+        </div>
+
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

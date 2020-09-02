@@ -13,18 +13,18 @@
 
 #grid-buttons {
     height: 60vh;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 #grid-buttons div {
     background-color: #9D79D5;
     padding: 3vh 0;
     margin-right: 3vw;
-
-
     text-align: center;
     height: 14vh;
-    display:flex;
-    float: right;
 }
 
 #fruit-buttons div {

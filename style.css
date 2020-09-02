@@ -1,6 +1,5 @@
 .container{
     background-color: #F5749E;
-    padding: 2vw;
 }
 
 .col{
@@ -28,10 +27,10 @@
 }
 
 #fruit-buttons div {
-    height: 15vh;
+    height: 10vh;
     border: 5px solid purple;
     text-align: center;
-    padding: 3vh 0;
+    padding: 1vh 0;
     display: block;
     margin-top: 1vh;
     background-color: #9D79D5;
@@ -48,12 +47,13 @@ button {
 }
 
 .fruit-image{
-    height: 8vh;
-    width: 12vh;
+    height: 6vh;
+    width: 10vh;
 }
 
-h1{
-    text-align:center;
+h3{
+    text-align: center;
+    font-weight: 600;
 }
 
 

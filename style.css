@@ -1,37 +1,32 @@
 .container{
     background-color: #F5749E;
-    padding: 2vw;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
 }
 
-.col{
-    padding: 5vw;
-}
 
 #fruit-buttons .selected-button {
     border: 10px solid red;
 }
 
-#grid-buttons {
-    height: 60vh;
-}
-
-#grid-buttons div {
-    background-color: #9D79D5;
-    padding: 3vh 0;
-    margin-right: 3vw;
-
-
+.box {
+    height: 12vh;
+    border: 5px solid purple;
     text-align: center;
-    height: 14vh;
-    display:flex;
-    float: right;
+    padding: 1vh 0;
+    display: block;
+    margin-top: 1vh;
+    background-color: #9D79D5;
+
 }
 
 #fruit-buttons div {
-    height: 15vh;
+    height: 10vh;
     border: 5px solid purple;
     text-align: center;
-    padding: 3vh 0;
+    padding: 1vh 0;
     display: block;
     margin-top: 1vh;
     background-color: #9D79D5;
@@ -48,12 +43,13 @@ button {
 }
 
 .fruit-image{
-    height: 8vh;
-    width: 12vh;
+    height: 6vh;
+    width: 10vh;
 }
 
-h1{
-    text-align:center;
+h3{
+    text-align: center;
+    font-weight: 600;
 }
 
 

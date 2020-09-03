@@ -1,5 +1,9 @@
 .container{
     background-color: #F5749E;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
 }
 
 
@@ -8,7 +12,7 @@
 }
 
 .box {
-    height: 10vh;
+    height: 12vh;
     border: 5px solid purple;
     text-align: center;
     padding: 1vh 0;

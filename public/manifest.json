@@ -14,7 +14,7 @@
     
     "icons": [
         {
-            "src": "assets/images/surf@2x.png",
+            "src": "assets/images/app_icon.png",
             "sizes": "72x72",
             "type": "image/png"
         }

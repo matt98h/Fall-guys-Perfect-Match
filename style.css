@@ -2,28 +2,20 @@
     background-color: #F5749E;
 }
 
-.col{
-    padding: 5vw;
-}
 
 #fruit-buttons .selected-button {
     border: 10px solid red;
 }
 
-#grid-buttons {
-    height: 60vh;
-    display:flex;
-    justify-content: space-between;
-    padding-left: 5vw;
-    padding-right: 5vw;
-}
-
-#grid-buttons div {
-    background-color: #9D79D5;
-    padding: 3vh 0;
-    margin-right: 3vw;
+.box {
+    height: 10vh;
+    border: 5px solid purple;
     text-align: center;
-    height: 14vh;
+    padding: 1vh 0;
+    display: block;
+    margin-top: 1vh;
+    background-color: #9D79D5;
+
 }
 
 #fruit-buttons div {

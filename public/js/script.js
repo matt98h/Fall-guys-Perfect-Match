@@ -49,7 +49,7 @@ function writeFruit(box) {
 
     el = document.getElementById(box)
 
-    el.innerHTML = '<img class="fruit-image" src="./images/' + fruitSelected + '.png">'
+    el.innerHTML = '<img class="fruit-image" src="./images/' + fruitSelected + '.png" alt=' + fruitSelected + '>'
 
 }
 

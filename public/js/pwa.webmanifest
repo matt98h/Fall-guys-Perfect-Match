@@ -1,0 +1,16 @@
+{
+    "name": "Fall Guys Perfect Match Tool",
+    "short_name": "Perfect Match",
+    "description": "A tool to help you succeed at the Perfect Match game mode on Fall Guys.",
+    "icons": [
+      {
+        "src": "../images/splash-screen.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#5adee0",
+    "background_color": "#5adee0"
+  }

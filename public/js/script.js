@@ -2,27 +2,6 @@
 var fruitSelected = "apple";
 var previousFruit = "apple";
 
-// registering service worker
-// if ("serviceWorker" in navigator) {
-//     window.addEventListener("load", function() {
-//       navigator.serviceWorker
-//         .register("./service-worker.js")
-//         .then(res => console.log("service worker registered"))
-//         .catch(err => console.log("service worker not registered", err))
-//     })
-//   }
-function serviceWorker() {
-    if ("serviceWorker" in navigator) { 
-        navigator.serviceWorker.register("./serviceWorker.js", { scope: "./" })
-            .then(() => console.log("Service Worker registered successfully."))
-            .catch(error => console.log("Service Worker registration failed:", error));
-    }
-
-};
-
-serviceWorker()
-
-
 // this function waits for a fruit selection button to be pressed, then saves the selection to fruitSelected
 function selectFruit(fruit) {
 

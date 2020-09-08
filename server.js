@@ -12,13 +12,15 @@ app
     .use(bodyParser.urlencoded({extended: true}))
     .use(bodyParser.json())
 
-  app.all('*', function (req, res) {
-    res.redirect('/')
-  });
+  
 
 app.get('/', (req, res) => {
     res.render('index')
 })
+
+app.all('*', function (req, res) {
+  res.redirect('/')
+});
 
 
 app.listen(PORT, function() {

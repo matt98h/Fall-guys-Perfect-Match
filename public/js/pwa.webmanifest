@@ -4,7 +4,7 @@
     "description": "A tool to help you succeed at the Perfect Match game mode on Fall Guys.",
     "icons": [
       {
-        "src": "../images/splash-screen.png",
+        "src": "../images/PM-logo.png",
         "sizes": "512x512",
         "type": "image/png"
       }

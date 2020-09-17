@@ -1,4 +1,3 @@
-// chuck is still a bitch
 
 const   express         = require("express"),
         bodyParser      = require('body-parser'),
